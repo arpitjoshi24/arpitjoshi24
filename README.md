@@ -1,7 +1,7 @@
-<h1 align="center">Hi 👋, I'm Arpit Joshi</h1>
-<h3 align="center">A passionate Frontend Developer from India</h3>
+<h1 >Hi 👋, I'm Arpit Joshi</h1>
+<h3 >A passionate Frontend Developer from India</h3>
 
-<p align="center">
+<p >
   <img src="https://komarev.com/ghpvc/?username=arpitjoshi24&label=Profile%20Views&color=0e75b6&style=flat" alt="arpitjoshi24" />
 </p>
 
@@ -51,14 +51,14 @@
 
 <h3 align="center">📊 GitHub Stats:</h3>
 
-<p align="center">
+<p >
   <img src="https://github-readme-stats.vercel.app/api?username=arpitjoshi24&show_icons=true&theme=radical" alt="GitHub Stats" />
 </p>
 
-<p align="center">
+<p >
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpitjoshi24&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
-<p align="center">
+<p >
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=arpitjoshi24&theme=radical" alt="GitHub Streak" />
 </p>
