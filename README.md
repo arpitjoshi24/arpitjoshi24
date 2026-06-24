@@ -16,7 +16,7 @@
 - 🔭 I’m currently working on **Backend Development**  
 - 🌱 I’m currently learning **Next.js**  
 - 👯 I’m looking to collaborate on **Full Stack Projects**  
-- 👨‍💻 All of my projects are available at [My Portfolio](https://portfolio-eta-mauve-99.vercel.app/)  
+- 👨‍💻 All of my projects are available at [My Portfolio](https://arpit-io-ic4j.vercel.app/)  
 - 📫 How to reach me: **arpitjoshi564@gmail.com**
 
 ---
