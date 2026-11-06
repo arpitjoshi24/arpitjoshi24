@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340">
+  <defs>
+    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.25" stop-color="#7dffea"/>
+      <stop offset="0.6" stop-color="#2a52ff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#2a0a6e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6a3dff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#6a3dff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#03030c"/>
+      <stop offset="1" stop-color="#0a0626"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="340" fill="url(#bg)"/>
+
+  <!-- aura -->
+  <circle cx="450" cy="175" r="200" fill="url(#aura)">
+    <animate attributeName="r" values="170;215;170" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- rotating rings -->
+  <g fill="none" stroke-linecap="round">
+    <circle cx="450" cy="175" r="130" stroke="#00d9ff" stroke-width="3" stroke-dasharray="40 18 6 18">
+      <animateTransform attributeName="transform" type="rotate" from="0 450 175" to="360 450 175" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="175" r="105" stroke="#b36bff" stroke-width="4" stroke-dasharray="80 30">
+      <animateTransform attributeName="transform" type="rotate" from="360 450 175" to="0 450 175" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="175" r="80" stroke="#7dffea" stroke-width="2" stroke-dasharray="4 10">
+      <animateTransform attributeName="transform" type="rotate" from="0 450 175" to="360 450 175" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- portal core -->
+  <circle cx="450" cy="175" r="62" fill="url(#core)">
+    <animate attributeName="r" values="56;70;56" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- orbiting sparks -->
+  <g fill="#ffffff">
+    <circle cx="450" cy="30" r="3">
+      <animateTransform attributeName="transform" type="rotate" from="0 450 175" to="360 450 175" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="55" r="2">
+      <animateTransform attributeName="transform" type="rotate" from="120 450 175" to="480 450 175" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="70" r="2.5" fill="#7dffea">
+      <animateTransform attributeName="transform" type="rotate" from="240 450 175" to="-120 450 175" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="450" cy="40" r="1.8" fill="#ff7bd0">
+      <animateTransform attributeName="transform" type="rotate" from="60 450 175" to="-300 450 175" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- text -->
+  <text x="450" y="38" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="20" fill="#ff5c7a" letter-spacing="6">
+    [ GATE DETECTED ]
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
+  </text>
+  <text x="450" y="322" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#9be8ff" letter-spacing="4">
+    RANK: S  //  PROJECTS BELOW
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- side readouts -->
+  <g font-family="'Courier New', monospace" font-size="14" fill="#7dffea">
+    <text x="40" y="150">DUNGEONS : 6</text>
+    <text x="40" y="174">STATUS   : OPEN</text>
+    <text x="40" y="198">DANGER   : BUGS</text>
+    <text x="860" y="150" text-anchor="end">LOOT   : REAL APPS</text>
+    <text x="860" y="174" text-anchor="end">ENTRY  : FREE</text>
+    <text x="860" y="198" text-anchor="end">PARTY  : WANTED</text>
+  </g>
+</svg>

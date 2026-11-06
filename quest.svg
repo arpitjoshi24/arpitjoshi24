@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#150a2e"/>
+      <stop offset="1" stop-color="#050616"/>
+    </linearGradient>
+    <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#b36bff" opacity="0.06"/></pattern>
+  </defs>
+
+  <rect x="10" y="10" width="880" height="380" rx="10" fill="url(#panel)" stroke="#b36bff" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="1;0.35;1" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="10" y="10" width="880" height="380" rx="10" fill="url(#lines)"/>
+
+  <text x="450" y="52" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="24" fill="#d9a8ff" letter-spacing="8">[ DAILY QUEST ]</text>
+  <text x="450" y="78" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" fill="#8f7bb5">Arrival of a developer</text>
+  <line x1="40" y1="92" x2="860" y2="92" stroke="#b36bff" stroke-opacity="0.5"/>
+
+  <g font-family="'Courier New', monospace" font-size="19" fill="#e8dcff">
+    <!-- row 1 -->
+    <rect x="60" y="116" width="26" height="26" rx="4" fill="none" stroke="#b36bff" stroke-width="2"/>
+    <path d="M66 130 L73 137 L85 121" fill="none" stroke="#7dffea" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="40" stroke-dashoffset="40">
+      <animate attributeName="stroke-dashoffset" values="40;40;0;0;40" keyTimes="0;0.08;0.13;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <text x="110" y="136">Write 100+ lines of real code</text>
+    <text x="800" y="136" fill="#ffd34d" font-size="15">+10 EXP</text>
+
+    <!-- row 2 -->
+    <rect x="60" y="168" width="26" height="26" rx="4" fill="none" stroke="#b36bff" stroke-width="2"/>
+    <path d="M66 182 L73 189 L85 173" fill="none" stroke="#7dffea" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="40" stroke-dashoffset="40">
+      <animate attributeName="stroke-dashoffset" values="40;40;0;0;40" keyTimes="0;0.22;0.27;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <text x="110" y="188">Learn one new concept</text>
+    <text x="800" y="188" fill="#ffd34d" font-size="15">+15 EXP</text>
+
+    <!-- row 3 -->
+    <rect x="60" y="220" width="26" height="26" rx="4" fill="none" stroke="#b36bff" stroke-width="2"/>
+    <path d="M66 234 L73 241 L85 225" fill="none" stroke="#7dffea" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="40" stroke-dashoffset="40">
+      <animate attributeName="stroke-dashoffset" values="40;40;0;0;40" keyTimes="0;0.36;0.41;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <text x="110" y="240">Push at least one commit</text>
+    <text x="800" y="240" fill="#ffd34d" font-size="15">+10 EXP</text>
+
+    <!-- row 4 -->
+    <rect x="60" y="272" width="26" height="26" rx="4" fill="none" stroke="#b36bff" stroke-width="2"/>
+    <path d="M66 286 L73 293 L85 277" fill="none" stroke="#7dffea" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="40" stroke-dashoffset="40">
+      <animate attributeName="stroke-dashoffset" values="40;40;0;0;40" keyTimes="0;0.5;0.55;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <text x="110" y="292">Help one fellow student</text>
+    <text x="800" y="292" fill="#ffd34d" font-size="15">+20 EXP</text>
+
+    <!-- row 5 -->
+    <rect x="60" y="324" width="26" height="26" rx="4" fill="none" stroke="#b36bff" stroke-width="2"/>
+    <path d="M66 338 L73 345 L85 329" fill="none" stroke="#7dffea" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="40" stroke-dashoffset="40">
+      <animate attributeName="stroke-dashoffset" values="40;40;0;0;40" keyTimes="0;0.64;0.69;0.92;1" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <text x="110" y="344">Ship something, however small</text>
+    <text x="800" y="344" fill="#ffd34d" font-size="15">+30 EXP</text>
+  </g>
+
+  <!-- completion banner -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.74;0.78;0.92;1" dur="12s" repeatCount="indefinite"/>
+    <rect x="250" y="355" width="400" height="30" rx="4" fill="#7dffea" fill-opacity="0.12" stroke="#7dffea"/>
+    <text x="450" y="376" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="16" fill="#7dffea" letter-spacing="3">QUEST COMPLETE  +1 LEVEL</text>
+  </g>
+
+  <text x="850" y="60" text-anchor="end" font-family="'Courier New', monospace" font-size="13" fill="#ff5c7a">
+    PENALTY: NO SLEEP
+    <animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/>
+  </text>
+</svg>

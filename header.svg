@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="900" height="280">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#02040d"/>
+      <stop offset="0.5" stop-color="#0a1233"/>
+      <stop offset="1" stop-color="#1a0630"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#00d9ff" stroke-opacity="0.09"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00d9ff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#00d9ff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="reveal">
+      <rect x="170" y="196" height="40" width="0">
+        <animate attributeName="width" values="0;560;560;0" keyTimes="0;0.45;0.9;1" dur="7s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="280" fill="url(#bg)"/>
+  <rect width="900" height="280" fill="url(#grid)"/>
+  <ellipse cx="450" cy="140" rx="380" ry="110" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- floating particles -->
+  <g fill="#00d9ff">
+    <circle cx="70" cy="300" r="2"><animate attributeName="cy" values="300;-10" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="300" r="1.5"><animate attributeName="cy" values="300;-10" dur="8s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="300" r="2.5"><animate attributeName="cy" values="300;-10" dur="7s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" begin="2s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="300" r="1.5"><animate attributeName="cy" values="300;-10" dur="9s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="300" r="2"><animate attributeName="cy" values="300;-10" dur="6.5s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6.5s" begin="3s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="300" r="2.5"><animate attributeName="cy" values="300;-10" dur="7.5s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7.5s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="740" cy="300" r="1.5"><animate attributeName="cy" values="300;-10" dur="8.5s" begin="2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8.5s" begin="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="830" cy="300" r="2"><animate attributeName="cy" values="300;-10" dur="6s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- top tag -->
+  <text x="450" y="58" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" fill="#00d9ff" letter-spacing="6">
+    [ PLAYER DETECTED ]
+    <animate attributeName="opacity" values="1;1;0.2;1;1;0.5;1" keyTimes="0;0.5;0.52;0.54;0.8;0.82;1" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- glitch title: magenta layer -->
+  <text x="450" y="150" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="80" fill="#ff2d95" opacity="0.8">
+    ARPIT JOSHI
+    <animateTransform attributeName="transform" type="translate" values="0 0;-5 1;4 -2;0 0;0 0;-3 2;5 0;0 0" keyTimes="0;0.08;0.12;0.16;0.7;0.74;0.78;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <!-- cyan layer -->
+  <text x="450" y="150" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="80" fill="#00f7ff" opacity="0.8">
+    ARPIT JOSHI
+    <animateTransform attributeName="transform" type="translate" values="0 0;5 -1;-4 2;0 0;0 0;3 -2;-5 0;0 0" keyTimes="0;0.08;0.12;0.16;0.7;0.74;0.78;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <!-- main layer -->
+  <text x="450" y="150" text-anchor="middle" font-family="'Courier New', monospace" font-weight="bold" font-size="80" fill="#ffffff">
+    ARPIT JOSHI
+  </text>
+
+  <!-- typed subtitle -->
+  <g clip-path="url(#reveal)">
+    <text x="450" y="222" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" fill="#9be8ff">FULL STACK DEVELOPER  //  BUILDER  //  MENTOR</text>
+  </g>
+  <rect y="204" width="10" height="22" fill="#00f7ff">
+    <animate attributeName="x" values="170;730;730;170" keyTimes="0;0.45;0.9;1" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- scanline -->
+  <rect x="0" y="-10" width="900" height="3" fill="#00f7ff" opacity="0.22">
+    <animate attributeName="y" values="-10;290" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- corner brackets -->
+  <g fill="none" stroke="#00d9ff" stroke-width="2">
+    <path d="M12 40V12H40"/><path d="M860 12H888V40"/><path d="M12 240V268H40"/><path d="M860 268H888V240"/>
+    <animate attributeName="stroke-opacity" values="1;0.35;1" dur="2.5s" repeatCount="indefinite"/>
+  </g>
+</svg>
