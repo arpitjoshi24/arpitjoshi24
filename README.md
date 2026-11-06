@@ -1,182 +1,216 @@
-<!-- =============== HERO SECTION =============== -->
-
+<!-- ═══════════════ HEADER ═══════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,50:111B3D,100:00F7FF&height=220&section=header&text=ARPIT%20JOSHI&fontSize=55&fontColor=FFFFFF&fontAlignY=38&desc=FULL%20STACK%20DEVELOPER%20%7C%20INDIA&descAlignY=58&descSize=17" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=12,6,20&height=260&section=header&text=ARPIT%20JOSHI&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Full%20Stack%20Developer%20%E2%80%A2%20Builder%20%E2%80%A2%20Mentor&descAlignY=60&descSize=20" width="100%" alt="header" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=00F7FF&center=true&vCenter=true&width=700&lines=Initializing+Developer+Mode...;Building+Modern+Web+Experiences;MERN+Stack+%7C+Next.js+%7C+Backend;Turning+Ideas+Into+Reality;Always+Learning.+Always+Building." />
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=720&height=60&lines=while(alive)+%7B+learn();+build();+ship();+%7D;Turning+ideas+into+real-time+web+apps;Technical+Head+%40+E-Cell+%E2%80%A2+Mentor+%40+WeCode;Frontend+%E2%86%92+Backend+%E2%86%92+Full+Stack+%F0%9F%9A%80" alt="Typing SVG" />
+</a>
 
 <br/>
 
-<a href="https://arpit-io-ic4j.vercel.app/">
-<img src="https://img.shields.io/badge/PORTFOLIO-00F7FF?style=for-the-badge&logo=vercel&logoColor=black" />
-</a>
-<a href="https://www.linkedin.com/in/arpit-joshi-999a58282">
-<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="mailto:arpitjoshi564@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-FF4B4B?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+<img src="https://komarev.com/ghpvc/?username=arpitjoshi24&label=VISITORS&color=00f7ff&style=for-the-badge" alt="views" />
+<img src="https://img.shields.io/badge/Open%20to-Collaboration-ff2d95?style=for-the-badge&logo=handshake&logoColor=white" alt="collab" />
+<img src="https://img.shields.io/badge/Status-Shipping-39ff14?style=for-the-badge" alt="status" />
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=arpitjoshi24&label=PROFILE+VISITORS&color=00F7FF&style=for-the-badge" />
+<a href="https://arpit-io-ic4j.vercel.app/"><img src="https://img.shields.io/badge/🌐_PORTFOLIO-0d1117?style=for-the-badge&labelColor=00f7ff&color=0d1117" /></a>
+<a href="https://www.linkedin.com/in/arpit-joshi-999a58282"><img src="https://img.shields.io/badge/LINKEDIN-0d1117?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117&color=0A66C2" /></a>
+<a href="mailto:arpitjoshi564@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0d1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117&color=EA4335" /></a>
+<a href="https://evotimes.xyz"><img src="https://img.shields.io/badge/EVOTIMES.XYZ-0d1117?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117&color=ffffff" /></a>
 
+</div>
+
+<br/>
+
+<!-- ═══════════════ TERMINAL ═══════════════ -->
+
+```bash
+arpit@github:~$ cat whoami.json
+```
+
+```json
+{
+  "name": "Arpit Joshi",
+  "location": "India 🇮🇳",
+  "education": "B.Tech CSE @ Graphic Era Hill University (2023 → 2027)",
+  "roles": [
+    "Web Development Mentor @ WeCode",
+    "Ex-Technical Head @ E-Cell",
+    "Ex-Frontend Intern @ Trusting Brains"
+  ],
+  "currently": {
+    "building": "Backend systems & real-time full stack apps",
+    "learning": "Next.js, WebSockets, system design",
+    "open_to": "Full Stack collaborations"
+  },
+  "fuel": ["coffee ☕", "late-night commits 🌙", "one-more-bug 🐛"],
+  "motto": "Ship it. Break it. Fix it. Ship it better."
+}
+```
+
+```bash
+arpit@github:~$ ./boot_sequence.sh
+[ OK ] Loading JavaScript .............. done
+[ OK ] Mounting React + Next.js ........ done
+[ OK ] Starting Node + Express ......... done
+[ OK ] Connecting MongoDB / PostgreSQL . done
+[ OK ] Deploying to Vercel ............. done
+[ ⚡ ] Arpit.exe is online. Ready to build.
+```
+
+---
+
+## 🔥 Things I've Built
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📖 The Living Book
+**A pop-up storybook portfolio.**
+Pages turn, chapters pop out in 3D — each project is its own chapter.
+`Next.js` `CSS 3D` `Animation`
+
+</td>
+<td width="50%" valign="top">
+
+### 🎯 Huntio
+**Camera-based object-hunt party game.**
+Point your camera, find the item first — detection runs *in the browser*.
+`Next.js` `Node.js` `YOLO11n` `WebSockets`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📰 EvoTimes
+**Live news site → [evotimes.xyz](https://evotimes.xyz)**
+Frontend on Vercel, backend on Render, SEO-tuned.
+`React` `Node.js` `Express` `SEO`
+
+</td>
+<td width="50%" valign="top">
+
+### ✅ TaskFlow
+**Task & productivity app.**
+Clean flows, fast UI, built for actually getting things done.
+`React` `Node.js` `MongoDB`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ API Master
+**Developer tool for testing & exploring APIs.**
+Built because Postman tabs were getting out of hand.
+`JavaScript` `Node.js` `Express`
+
+</td>
+<td width="50%" valign="top">
+
+### ⌨️ TypingKing
+**Typing speed game.**
+Speed, accuracy, bragging rights.
+`HTML` `CSS` `JavaScript`
+
+</td>
+</tr>
+</table>
+
+> 🧪 **In the lab:** a collaborative browser IDE, an AI tool that structures college project documentation, and more. Watch this space.
+
+---
+
+## 🧰 Arsenal
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,js,py,react,nextjs,nodejs,express,tailwind,electron&perline=10" /><br/>
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,git,github,postman,vscode,npm,netlify,vercel,figma&perline=10" />
+
+</div>
+
+<details>
+<summary><b>🔓 Click to unlock the full skill tree</b></summary>
+<br/>
+
+| Layer | Stack |
+|---|---|
+| 🎨 **Frontend** | HTML · CSS · JavaScript · React · Next.js · Tailwind CSS |
+| ⚙️ **Backend** | Node.js · Express.js · REST APIs |
+| 🗄️ **Databases** | MongoDB · PostgreSQL |
+| 🖥️ **Desktop** | Electron.js |
+| 🐍 **Scripting** | Python |
+| 🛠️ **Tools** | Git · GitHub · Postman · VS Code · npm · Figma |
+| ☁️ **Deploy** | Vercel · Netlify · Render |
+
+</details>
+
+---
+
+## 🎮 Player Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=arpitjoshi24&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&count_private=true" height="180" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpitjoshi24&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=arpitjoshi24&theme=tokyonight&hide_border=true" />
+
+</div>
+
+### 📈 Contribution Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=arpitjoshi24&theme=tokyo-night&hide_border=true&area=true&radius=10" width="100%" />
+
+### 🐍 Contribution Snake
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arpitjoshi24/arpitjoshi24/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arpitjoshi24/arpitjoshi24/output/github-snake.svg" />
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/arpitjoshi24/arpitjoshi24/output/github-snake-dark.svg" />
+</picture>
+</div>
+
+### 🏆 Trophy Room
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=arpitjoshi24&theme=onedark&no-frame=true&no-bg=true&margin-w=12&row=1&column=7" />
 </div>
 
 ---
 
-<!-- =============== ABOUT ME =============== -->
+## 🧠 Dev Mindset
 
-## ⚡ `01 // ABOUT ME`
-
-<img align="right" width="180" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
-
-```javascript
+```js
 const arpit = {
-    name: "Arpit Joshi",
-    location: "India 🇮🇳",
-    role: "Full Stack Developer",
-    
-    currentlyWorkingOn: [
-        "Backend Development",
-        "Full Stack Applications"
-    ],
-
-    currentlyLearning: [
-        "Next.js",
-        "System Design",
-        "Advanced Backend"
-    ],
-
-    interests: [
-        "Web Development",
-        "Open Source",
-        "Problem Solving"
-    ],
-
-    goal: "Build things that matter."
+  philosophy: "Build in public, learn in public",
+  strengths: ["Fast learner", "Clean UI sense", "Ships fast", "Teaches what he learns"],
+  weakness: "Starts too many cool projects 😅",
+  solution: () => finish(everything).then(startNext),
 };
 ```
 
-- 🔭 Currently working on **Backend Development**
-- 🌱 Currently learning **Next.js**
-- 👯 Looking to collaborate on **Full Stack Projects**
-- 💻 Exploring modern web technologies and scalable applications.
-- 🎯 Focused on becoming a better engineer every day.
-
-<br clear="both"/>
-
 ---
 
-<!-- =============== TECH STACK =============== -->
+## 🤝 Let's Build Something
 
-## 🛠️ `02 // TECH ARSENAL`
+> I'm looking to collaborate on **full stack projects** — real-time apps, dev tools, games, anything ambitious.
+> If you've got an idea that sounds slightly impossible, **that's exactly my kind of project.**
 
 <div align="center">
 
-### FRONTEND
+📫 **arpitjoshi564@gmail.com**
 
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,bootstrap,figma&theme=dark" />
-
-### BACKEND & DATABASE
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql&theme=dark" />
-
-### TOOLS & WORKFLOW
-
-<img src="https://skillicons.dev/icons?i=git,github,postman,vscode&theme=dark" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1500&color=FF2D95&center=true&vCenter=true&width=600&lines=%22Talk+is+cheap.+Show+me+the+code.%22;Star+%E2%AD%90+a+repo+if+you+like+what+you+see!;Thanks+for+stopping+by+%F0%9F%91%8B" />
 
 </div>
 
----
-
-<!-- =============== PROJECTS =============== -->
-
-## 🚀 `03 // SELECTED PROJECTS`
-
-<div align="center">
-
-<a href="https://evotimes.xyz">
-<img src="https://img.shields.io/badge/EVOTIMES-TECH%20NEWS%20PLATFORM-00F7FF?style=for-the-badge" />
-</a>
-
-<a href="https://github.com/arpitjoshi24">
-<img src="https://img.shields.io/badge/EXPLORE-MY%20REPOSITORIES-8A2BE2?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-</div>
-
-> Building applications, experimenting with technologies, and turning concepts into working products.
-
----
-
-<!-- =============== GITHUB STATS =============== -->
-
-## 📊 `04 // GITHUB ANALYTICS`
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=arpitjoshi24&show_icons=true&hide_border=true&bg_color=050816&title_color=00F7FF&icon_color=8A2BE2&text_color=FFFFFF&rank_icon=github" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arpitjoshi24&layout=compact&hide_border=true&bg_color=050816&title_color=00F7FF&text_color=FFFFFF" />
-
-<br/><br/>
-
-<img width="75%" src="https://streak-stats.demolab.com?user=arpitjoshi24&theme=transparent&hide_border=true&background=050816&ring=00F7FF&fire=8A2BE2&currStreakLabel=00F7FF&sideLabels=FFFFFF&dates=777777" />
-
-</div>
-
----
-
-<!-- =============== CONTRIBUTIONS =============== -->
-
-## 🐍 `05 // CONTRIBUTION MATRIX`
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/arpitjoshi24/arpitjoshi24/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation" />
-
-</div>
-
----
-
-<!-- =============== TROPHIES =============== -->
-
-## 🏆 `06 // ACHIEVEMENTS`
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=arpitjoshi24&theme=algolia&no-frame=true&no-bg=true&margin-w=8&column=6" width="100%" />
-
-</div>
-
----
-
-<!-- =============== CONNECT =============== -->
-
-## 🌐 `07 // ESTABLISH CONNECTION`
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/arpit-joshi-999a58282">
-<img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
-</a>
-
-<a href="mailto:arpitjoshi564@gmail.com">
-<img src="https://img.shields.io/badge/GMAIL-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-
-<a href="https://arpit-io-ic4j.vercel.app/">
-<img src="https://img.shields.io/badge/PORTFOLIO-Explore-00F7FF?style=for-the-badge&logo=vercel&logoColor=black" />
-</a>
-
-<br/><br/>
-
-### `console.log("Thanks for visiting my profile!");`
-
-**⭐ Code • Create • Contribute • Repeat**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F7FF,50:111B3D,100:050816&height=120&section=footer" width="100%" />
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,6,20&height=120&section=footer" width="100%" />
